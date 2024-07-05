@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Find the Grade</h1>
+    <input type="number" id="mark" placeholder='Enter Your mark '>
+    <button onclick="findGrade()">Check</button>
+    <p id="result" >result</p>
+
+    <script>
+        function findGrade() {
+            let mark = document.getElementById('mark').value;
+            let grade;
+
+            switch (true) {
+                case (mark >= 90 && mark <= 100):
+                    grade = 'S grade';
+                    document.getElementById("result").innerHTML=grade;
+                    break;
+                case (mark >= 80 && mark < 90):
+                    grade = 'A grade';
+                    document.getElementById("result").innerHTML=grade;
+                    break;
+                case (mark >= 70 && mark < 80):
+                    grade = 'B grade';
+                    document.getElementById("result").innerHTML=grade;
+                    break;
+                case (mark >= 60 && mark < 70):
+                    grade = 'C grade';
+                    document.getElementById("result").innerHTML=grade;                   
+                    break;
+                case (mark >= 50 && mark < 60):
+                    grade = 'D grade';
+                    document.getElementById("result").innerHTML=grade;
+                    break;
+                case (mark >= 40 && mark < 50):
+                    grade = 'E grade';
+                    document.getElementById("result").innerHTML=grade;   
+                    break;
+                case (mark >= 0 && mark < 40):
+                    grade = 'SUDENT HAS FAILED';
+                    document.getElementById("result").innerHTML=grade;
+                    break;
+                default:
+                    grade = "Invalid marks"; 
+                    document.getElementById("result").innerHTML=grade;   
+                }
+                return true;
+            }
+    </script>
+</body>
+</html>
+

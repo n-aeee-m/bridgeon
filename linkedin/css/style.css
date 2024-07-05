@@ -1,0 +1,243 @@
+.main {
+    justify-items: center;
+    align-items: center;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 50% 150px 0px 20px 50px 50px 50px 50px 50px 50px 50px 100px;
+    font-family: Verdana;
+    font-size: small;
+    position: relative;
+    right: 45px;
+
+}
+
+.logo {
+    width: 130px;
+    height: 135px;
+    position: relative;
+    bottom: 8px;
+}
+
+.discimg {
+    position: relative; 
+    right: 75px;
+    width: 19px;
+    height: 16px;
+    bottom: 14px;
+}
+
+.p {
+    position: relative; 
+    bottom: 16px;
+    right: 35px;
+    width: 50px;
+    height: 25px;
+}
+
+.l {
+    position: relative; 
+    bottom: 15px;
+    right: 50px;
+    width: 35px;
+    height: 24px;
+}
+
+.j {
+    position: relative; 
+    bottom: 15px;
+    right: 50px;
+    width: 20px;
+    height: 19px;
+}
+
+.joinbutton {
+    
+    border-radius: 24px;
+    border: 0;
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 549;
+    line-height: 1.25;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+    width: 110px;
+}
+
+.signbutton {
+    border-radius: 24px;
+    width: 110px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 549;
+    line-height: 1.25;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid #0a66c2;
+    background-color: white;
+    color: #0a66c2;
+}
+
+.line {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 55px;
+    bottom: 10px;
+}
+
+.bdy {
+    font-family: Verdana;
+    margin-left: 268px;
+    margin-right: 700px;
+    /* background: blue; */
+    display: grid;
+    position: relative;
+    grid-template-rows: 170px 20px 70px 20px 20px 60px 40px 80px 100px 50px 20px;
+    align-content:space-between;
+    top: 80px;
+}
+
+.emailbox {
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.passbox[type="text"] {
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.s1 {
+    border-radius: 20px;
+    border: 0;
+    background-color: #0a66c2;
+    color: white;
+    width: 280px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+.f1 {
+    font-size:smaller ;
+    color: #0a66c2;
+
+}
+
+.l1 {
+    width: 120px;
+    position: relative;
+    right: 190px;
+    bottom: 15px;
+}
+
+.or {
+    font-size:medium;
+    position: relative;
+    left: 145px;
+    bottom: 44px;
+
+}
+
+.l2 {
+    width: 120px;
+    position: relative;
+    right: 42px;
+    bottom: 68px;
+}
+
+.ordiv {
+    position: relative;
+    right: 7px;
+}
+
+.showbutton {
+    position: relative;
+    left: 230px;
+    bottom: 5px;
+    font-family:Arial;
+    color: #0a66c2;
+    font-weight: 550;
+    border: 0;
+    background-color: white;
+}
+
+.google {
+    border-radius: 20px;
+    background-color: white;
+    width: 280px;
+    height: 35px;
+    position: relative;
+    bottom: 75px;
+    left: 2px;
+}
+
+.new {
+    border-radius: 20px;
+    background-color: white;
+    width: 280px;
+    height: 35px;
+    position: relative;
+    bottom: 95px;
+    left: 2px;
+}
+
+.gg {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    left: 50px;
+    bottom: 116px;
+}
+
+.google, .new {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.backgorund {
+    width: 50px;
+    height: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 500px;
+}
+
+body {
+    position: relative;
+    right: 50px;
+}
+
+p {
+    font-size: xx-large;
+}
+
+.s1:hover {
+    background-color: #004182;
+}
+
+.showbutton:hover, .f1:hover, .joinbutton:hover {
+    color: #004182;
+}
+.google:hover, .new:hover, .emailbox:hover, .passbox:hover {
+    border: 3px solid black;
+}
+
+.signbutton:hover {
+    border: 3px solid #004182;
+    color: #004182;
+}
+

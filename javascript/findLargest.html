@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Find Largest Number</h1>
+    <p>Enter 3 Numbers</p>
+    <input id="n1" type="number" placeholder="enter number 1"><br><br>
+    <input id="n2" type="number" placeholder="enter number 2"><br><br>
+    <input id="n3" type="number" placeholder="enter number 3"><br><br>
+    <button id="check" onclick="findLargest()" >check</button>
+    <p id="result">Result</p>
+
+
+
+    <script>
+        function findLargest() {
+                let n1 = document.getElementById('n1').value;
+                let n2 = document.getElementById('n2').value;
+                let n3 = document.getElementById('n3').value;
+                n1 = parseInt(n1);
+                n2 = parseInt(n2);
+                n3 = parseInt(n3);
+                if (n1 > n2 && n1 > n3 ) {
+                    document.getElementById('result').innerHTML= n1 + ' is greatest';
+                    console.log( n1 + ' is greatest');
+
+                }
+                else if (n2 > n1 && n2 > n3 ) {
+                    document.getElementById('result').innerHTML= n2 + ' is greatest';
+                    console.log( n2 + ' is greatest');
+                }
+
+                else {
+                    document.getElementById('result').innerHTML= n3 + ' is greatest';
+                    console.log( n3 + ' is greatest');
+                }
+            }
+    </script>
+</body>
+</html>

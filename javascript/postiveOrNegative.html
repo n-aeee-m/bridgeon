@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even Checker</title>
+</head>
+<body>
+    <h1>Positive or Negative</h1>
+    <input id="inputnumber" type="number" placeholder="Enter a number">
+    <button id="button" onclick="pnz()">Check</button>
+    <p id="result">Result will appear here</p>
+
+    <script>
+        function pnz() {
+            let number = document.getElementById('inputnumber').value;
+
+            if (number) {
+                if (number == 0) {
+                    document.getElementById('result').innerHTML="Number is 0";
+                }
+                else if (number > 0) {
+                    document.getElementById('result').innerHTML='Number is positive';
+                } 
+                else {
+                    document.getElementById('result').innerHTML='Number is negative';
+                }
+            }
+            else {
+                document.getElementById('result').innerHTML='Enter a Number';
+            }
+        }
+    </script>
+</body>
+</html>
